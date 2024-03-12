@@ -49,14 +49,17 @@ LANGUAGE plpgsql;
 ##### 1.-Array
 <p>Función que crea un arreglo de enteros de tamaño determinado por el parámetro de entrada "t" y lo llena con valores enteros consecutivos, mostrando cada valor en una notificación antes de devolver un valor entero de 0</p>
 <p>Resultado</p>
+<img width="550" alt="PreviewArrayFunction" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/6bdf3eb1-976e-4e26-8315-affe9aaa2eeb">
 
 ##### 2.-ArrayQuery
 <p>Esta funcion realiza una consulta SQL en la tabla compania para obtener los valores distintos de la columna "acti_p", los almacena en un arreglo de cadenas de caracteres y muestra cada valor en una notificación</p>
 <p>Resultado</p>
+<img width="550" alt="PreviewArrayQueryFunction" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/2ce2f935-f858-4ea2-ae09-dc93235c85ea">
 
 ##### 3.-ArrayString
 <p>Se realiza una consulta SQL en la tabla "soldados" para obtener todos los nombres de los soldados,se almacena en un arreglo de cadenas de caracteres y  se muestra cada nombre en una notificación</p>
 <p>Resultado</p>
+
 
 ##### 4.-CicloFor
 <p>Realiza un bucle "for" que itera desde 1 hasta 10, sumando el valor actual de "c" a una variable "res" en cada iteración. Luego, devolvemos el valor final de "res" al finalizar el bucle. Además, mostramos el valor actual de "res" en cada iteración mediante el mensaje de notificación</p>
