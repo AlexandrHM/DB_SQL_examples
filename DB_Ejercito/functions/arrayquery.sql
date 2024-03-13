@@ -4,7 +4,7 @@ DECLARE
 	c int:=1;
 	i record;
 BEGIN
-	for i in select acti_p from compania group by acti_p
+	for i in select act_comp from companias group by act_comp
 		loop
 			matriz[c]:=i.acti_p;
 			raise notice 'compañia=%',matriz[c];
