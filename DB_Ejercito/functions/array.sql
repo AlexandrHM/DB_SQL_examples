@@ -1,4 +1,4 @@
-CREATE OR REPLACE FUNCTION array(int) RETURNS int as $$
+CREATE OR REPLACE FUNCTION arrayfuncion(int) RETURNS int as $$
 DECLARE
 	matriz int[];
 	c int;
@@ -11,5 +11,5 @@ BEGIN
 		end loop;
 	return 0;
 END;
-$$ language plpsgsql;
+$$ language plpgsql;
 
