@@ -50,7 +50,7 @@ psql -U user_db -d name_db -h localhost -f name_backup.sql
 
 ## Listado de base de datos
 
-##### C. Base de datos "ejercito"
+##### B. Base de datos "ejercito"
 ###### Diagrama E-R
 
 <img width="650" alt="ER-Ejercito" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/82777e6f-396b-4f2b-a23e-552de92bf6ed">
@@ -58,3 +58,8 @@ psql -U user_db -d name_db -h localhost -f name_backup.sql
 ###### Modelo relacional
 
 <img width="650" alt="MR-Ejercito" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/23706c5e-cd9a-441f-80fa-e7d51de685d9">
+
+##### A. Base de datos "Tienda"
+###### Diagrama E-R
+
+###### Modelo relacional
