@@ -1,14 +1,13 @@
 CREATE OR REPLACE FUNCTION ubicursor() RETURNS void as $$
 DECLARE
-	cursorcuartel cursor for select *from cuartel where ubicacion='No_definido' for update;
-	auxcuartel cuartel%rowtype;
+	cursorcuartel cursor for select *from cuarteles where ubi_crtl='Sin_asignar' for update;
+	auxcuartel cuarteles%rowtype;
 BEGIN
 	open cursorcuartel;
 		loop
 			fetch cursorcuartel into auxcuartel;
-			if cursorcuartel in null then exit;
-			end if;
-			update cuartel set ubicacion='Por_definir' where current of cursorcuartel;
+			exit when not found;
+			update cuarteles set ubi_crtl='Por_definir' where current of cursorcuartel;
 		end loop;
 	close cursorcuartel;
 END;
