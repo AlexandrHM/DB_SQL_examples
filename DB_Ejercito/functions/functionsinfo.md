@@ -1,4 +1,4 @@
-#### Consultas SQL (Query)
+#### Funciones SQL (Query Functions)
 <p>En este archivo se proporciona información acerca de las funciones realizadas
 y el resultado. Ademas de informacion acerca de las palabras reservadas u sintaxis
 de la misma.</p>
@@ -86,4 +86,5 @@ LANGUAGE plpgsql;
 <p> Actualiza la ubicación de los registros en la tabla "cuartel" de 'No_definido' a 'Por_definir'. Recorre todos los registros que cumplen con la condición utilizando un cursor, actualizando cada uno de ellos.</p>
 <p>Resultado</p>
 
+<img width="550" alt="PreviewCicloWhile" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/97724a98-286f-423c-87a8-84f9f6354623">
 
