@@ -66,13 +66,13 @@ LANGUAGE plpgsql;
 <p>Resultado</p>
 <img width="550" alt="PreviewCicloFor" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/d3b1ed13-61f9-4fd8-9a97-0057e87b1afd">
 
-##### 6.-CicloWhile
+##### 5.-CicloWhile
 <p>Funncion del un cliclo while que se ejecuta mientras "c" sea menor o igual que el valor del parámetro "limite". En cada iteración, suma el valor actual de "c" a una variable "res" y muestra el valor actual de "res" en un mensaje de notificación. Finalmente, devuelve el valor final de "res" al finalizar el bucle</p>
 <p>Resultado</p>
 <img width="550" alt="PreviewCicloWhile" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/0d648121-c90a-41be-a78d-53d6b4c9d75b">
 
 
-##### 3.-Positivo
+##### 6.-Positivo
 <p>Verifica si el número pasado como parámetro es positivo o cero, y devuelve "true" si lo es y "false" en caso contrario</p>
 <p>Resultado</p>
 <img width="550" alt="PreviewCicloWhile" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/de9c344c-6b43-4953-bfda-db905124b63f">
@@ -88,3 +88,13 @@ LANGUAGE plpgsql;
 
 <img width="550" alt="PreviewCicloWhile" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/97724a98-286f-423c-87a8-84f9f6354623">
 
+##### 9.-Cast Edad
+<p>Esta función toma dos fechas como argumentos y devuelve la diferencia entre ellas en formato de texto (varchar). La función utiliza la función age() de PostgreSQL para calcular la diferencia entre las dos fechas proporcionadas y luego devuelve este resultado como una cadena de texto.</p>
+
+##### 10.-Sumar Fecha
+<p>Esta función toma una fecha y un intervalo como argumentos y devuelve una nueva fecha que resulta de sumar el intervalo a la fecha proporcionada. Dentro del bloque de código, la variable fecha se inicializa sumando el intervalo ($2) a la fecha ($1) y luego se devuelve esta nueva fecha. </p>
+
+##### 11.-Cast Date
+<p>Función que toma dos fechas como argumentos y devuelve la diferencia entre ellas en formato de texto (varchar) con una etiqueta personalizada para cada unidad (años, meses, días).
+
+Después de calcular la diferencia entre las dos fechas utilizando la función age(), se utilizan las funciones replace() para reemplazar las etiquetas de las unidades de tiempo (years, mons, days, year, mon, day) por sus equivalentes en español (años, meses, días, año, mes, día). Y finalmente, la función devuelve la cadena de texto modificada con las etiquetas en español.</p>
