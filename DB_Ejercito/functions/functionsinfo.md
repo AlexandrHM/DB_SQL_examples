@@ -90,11 +90,18 @@ LANGUAGE plpgsql;
 
 ##### 9.-Cast Edad
 <p>Esta función toma dos fechas como argumentos y devuelve la diferencia entre ellas en formato de texto (varchar). La función utiliza la función age() de PostgreSQL para calcular la diferencia entre las dos fechas proporcionadas y luego devuelve este resultado como una cadena de texto.</p>
+<p>Resultado</p>
+<img width="550" alt="PreviewEdadCast" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/7fb44d56-6b45-43fc-80fd-e77e653f127d">
 
 ##### 10.-Sumar Fecha
 <p>Esta función toma una fecha y un intervalo como argumentos y devuelve una nueva fecha que resulta de sumar el intervalo a la fecha proporcionada. Dentro del bloque de código, la variable fecha se inicializa sumando el intervalo ($2) a la fecha ($1) y luego se devuelve esta nueva fecha. </p>
+<p>Resultado</p>
+<img width="550" alt="PreviewSumarFecha" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/de67f847-22e3-44e3-8efd-5caaea87687c">
 
 ##### 11.-Cast Date
 <p>Función que toma dos fechas como argumentos y devuelve la diferencia entre ellas en formato de texto (varchar) con una etiqueta personalizada para cada unidad (años, meses, días).
 
 Después de calcular la diferencia entre las dos fechas utilizando la función age(), se utilizan las funciones replace() para reemplazar las etiquetas de las unidades de tiempo (years, mons, days, year, mon, day) por sus equivalentes en español (años, meses, días, año, mes, día). Y finalmente, la función devuelve la cadena de texto modificada con las etiquetas en español.</p>
+<p>Resultado</p>
+<img width="550" alt="PreviewCastDate" src="https://github.com/OyasumiiAlex/DB_SQL_examples/assets/44487342/88dfe043-6e9c-4a76-9d27-25ae3c605410">
+
